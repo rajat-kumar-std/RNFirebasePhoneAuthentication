@@ -33,11 +33,11 @@ const OtpInputScreen = ({navigation}) => {
         </TouchableOpacity>
       </View>
       {/* Test Button */}
-      <Button
+      {/* <Button
         title="Authentication"
         onPress={() => navigation.navigate('Authentication')}
       />
-      <Button title="Home" onPress={() => navigation.navigate('Home')} />
+      <Button title="Home" onPress={() => navigation.navigate('Home')} /> */}
     </View>
   );
 };

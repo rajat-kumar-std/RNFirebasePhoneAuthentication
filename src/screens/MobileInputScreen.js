@@ -62,10 +62,10 @@ const MobileInputScreen = ({navigation}) => {
         </TouchableOpacity>
       </View>
       {/* Test Button */}
-      <Button
+      {/* <Button
         title="Verifiaction Page"
         onPress={() => navigation.navigate('Verification')}
-      />
+      /> */}
     </View>
   );
 };
